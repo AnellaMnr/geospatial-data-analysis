@@ -37,3 +37,8 @@ folium.Choropleth(
 ).add_to(map)
 
 map.save(outfile="densite.html")
+
+#pour lancer la carte : 
+# cd ~/projet_geolocalisation
+# python -m http.server
+# lien internet : http://localhost:8000/densite.html
